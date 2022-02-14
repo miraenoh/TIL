@@ -1,0 +1,32 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+ @font-face
+    font-family: 'Cafe24Ssurround'
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff')
+    font-weight: normal
+    font-style: normal
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.home .hero img
+  max-width 450px!important
+
+h1
+  font-family: 'Black Han Sans', sans-serif;
+  border-bottom: 1px solid #eaecef;
+  word-break: keep-all
+  font-size: 3.3rem
+  font-weight: 400
+  color: #212121
+
+@media (max-width: 1200px)
+  h1
+    font-size: 2.7rem
+
+@media (max-width: 700px)
+  h1
+    font-size: 2.2rem
