@@ -1,4 +1,5 @@
-const { description } = require('../../package')
+const { description } = require('../../package');
+const { getDocs } = require('./util');
 
 module.exports = {
 	title: 'TIL',
@@ -22,9 +23,9 @@ module.exports = {
 		sidebar: [
 			{
 				title: 'Guide',
-				children: ['/guide/', '/guide/using-vue']
+				children: getDocs('guide')
 			}
 		]
 	},
 	plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom']
-}
+};
