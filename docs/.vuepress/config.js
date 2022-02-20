@@ -22,8 +22,20 @@ module.exports = {
 		prevLinks: true,
 		sidebar: [
 			{
-				title: 'Guide',
-				children: getDocs('guide')
+				title: 'HTML',
+				children: getDocs('html')
+			},
+			{
+				title: 'CSS',
+				children: getDocs('css')
+			},
+			{
+				title: 'JavaScript',
+				children: getDocs('javascript')
+			},
+			{
+				title: 'Notes',
+				children: getDocs('notes')
 			}
 		]
 	},
