@@ -33,6 +33,10 @@ module.exports = {
 				title: 'JavaScript',
 				children: getDocs('javascript')
 			},
+			{
+				title: 'TypeScript',
+				children: getDocs('typescript')
+			},
 			{ title: 'React', children: getDocs('react') },
 			{
 				title: 'Notes',
